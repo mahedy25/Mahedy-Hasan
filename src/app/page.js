@@ -1,7 +1,6 @@
 "use client"
 import AnimatedText from '@/Components/AnimatedText'
 import React from 'react'
-import profile1 from "../../public/images/Profile/profileImage.png"
 import Image from 'next/image'
 import Link from 'next/link'
 import { LinkArrow } from '@/Components/Icons'
@@ -31,7 +30,7 @@ const page = () => {
 
       <Image
       priority 
-      src= {profile1}
+      src= {""}
       alt='Mahedy' 
       className=' border bg-gradient-to-r from-red-500 md:w-80 to-fuchsia-500 rounded-full xl:bg-none xl:border-none xl:rounded-none'/>
 
