@@ -28,7 +28,7 @@ const page = () => {
 
       <div className='md:w-1/2 mt-4 md:mt-0'>
 
-      <Image
+      <img
       priority 
       src= '/images/profile/profileImage.png'
       width={900}
