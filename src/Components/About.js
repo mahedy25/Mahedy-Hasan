@@ -3,7 +3,6 @@ import AnimatedText from './AnimatedText'
 import { invariant, motion, useInView, useMotionValue, useSpring } from 'framer-motion'
 import SkillsSection from './SkillsSection'
 import Education from './Education'
-import pp2 from '/images/Projects/profile2.jpg'
 import Image from 'next/image'
 
 
@@ -59,7 +58,7 @@ const About = () => {
         <div className='col-span-3 rounded-lg w-full justify-end items-start flex'>
           {/* image */}
           <Image
-          src={pp2}
+          src="/images/profile/profile2.jpg"
           width={400}
           height={400}
           alt='Profile Picture'
