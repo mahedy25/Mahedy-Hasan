@@ -61,7 +61,7 @@ const About = () => {
           <Image
           src={profile2}
           alt='Profile Picture'
-          className='rounded-lg w-full h-auto  p-4 shadow-[7px_7px_0px_#333] border-2 border-black'
+          className='rounded-lg md:w-80 h-auto  p-4 shadow-[7px_7px_0px_#333] border-2 border-black'
           priority
           />
         </div>

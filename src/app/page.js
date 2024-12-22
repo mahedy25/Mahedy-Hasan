@@ -33,7 +33,7 @@ const page = () => {
       priority 
       src= {profile1}
       alt='Mahedy' 
-      className=' border bg-gradient-to-r from-red-500 md:w-80 to-fuchsia-500 rounded-full xl:bg-none xl:border-none xl:rounded-none'/>
+      className=' border bg-gradient-to-r from-red-500 w-full to-fuchsia-500 rounded-full xl:bg-none xl:border-none xl:rounded-none'/>
 
       </div>
 
