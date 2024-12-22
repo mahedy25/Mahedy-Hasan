@@ -1,7 +1,7 @@
 "use client"
 import AnimatedText from '@/Components/AnimatedText'
 import React from 'react'
-import profile1 from "../../public/images/profile/profileImage.png"
+import profile1 from "../../public/images/Profile/profileImage.png"
 import Image from 'next/image'
 import Link from 'next/link'
 import { LinkArrow } from '@/Components/Icons'
