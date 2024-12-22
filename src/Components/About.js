@@ -3,7 +3,7 @@ import AnimatedText from './AnimatedText'
 import { invariant, motion, useInView, useMotionValue, useSpring } from 'framer-motion'
 import SkillsSection from './SkillsSection'
 import Education from './Education'
-import pp2 from '../../public/images/Projects/profile2.jpg'
+import pp2 from '/images/Projects/profile2.jpg'
 import Image from 'next/image'
 
 

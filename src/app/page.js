@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import HireMe from '@/Components/HireMe'
 import Head from 'next/head'
 import TransitionEffect from '@/Components/TransitionEffect'
-import pp1 from '../../public/images/Projects/profile1.png'
+import pp1 from '/images/Projects/profile1.png'
 import Image from 'next/image'
 
 const page = () => {
