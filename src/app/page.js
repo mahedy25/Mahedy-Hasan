@@ -30,7 +30,7 @@ const page = () => {
 
       <Image
       priority="true" 
-      src= '/images/img/ProfileImage.png'
+      src= '/images/profile1.png'
       width={900}
       height={900}
       alt='Mahedy' 

@@ -58,7 +58,7 @@ const About = () => {
         <div className='col-span-3 rounded-lg w-full justify-end items-start flex'>
           {/* image */}
           <Image
-          src='/images/img/profile2.jpg'
+          src='/images/profile2.jpg'
           width={400}
           height={400}
           alt='Profile Picture'
