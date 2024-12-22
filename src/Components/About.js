@@ -58,7 +58,7 @@ const About = () => {
         <div className='col-span-3 rounded-lg w-full justify-end items-start flex'>
           {/* image */}
           <Image
-          src='/images/profile2.jpg'
+          src="https://via.placeholder.com/400"
           width={400}
           height={400}
           alt='Profile Picture'
