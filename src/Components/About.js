@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import AnimatedText from './AnimatedText'
-import profile2 from '../../public/images/Profile/profile2.jpg'
 import Image from 'next/image'
 import { invariant, motion, useInView, useMotionValue, useSpring } from 'framer-motion'
 import SkillsSection from './SkillsSection'
@@ -58,11 +57,11 @@ const About = () => {
 
         <div className='col-span-3 rounded-lg w-full justify-end items-start flex'>
           {/* image */}
-          <Image
-          src={profile2}
+          <img
+          src='/images/Profile/profile2.jpg'
           alt='Profile Picture'
           className='rounded-lg md:w-80 h-auto  p-4 shadow-[7px_7px_0px_#333] border-2 border-black'
-          priority
+          priority="true"
           />
         </div>
 
