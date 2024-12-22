@@ -7,6 +7,7 @@ import { motion } from 'framer-motion'
 import HireMe from '@/Components/HireMe'
 import Head from 'next/head'
 import TransitionEffect from '@/Components/TransitionEffect'
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -27,9 +28,11 @@ const page = () => {
 
       <div className='md:w-1/2 mt-4 md:mt-0'>
 
-      <img
+      <Image
       priority="true" 
       src= '/images/img/ProfileImage.png'
+      width={900}
+      height={900}
       alt='Mahedy' 
       className=' border bg-gradient-to-r from-red-500 w-full to-fuchsia-500 rounded-full xl:bg-none xl:border-none xl:rounded-none'/>
 

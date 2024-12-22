@@ -3,6 +3,7 @@ import AnimatedText from './AnimatedText'
 import { invariant, motion, useInView, useMotionValue, useSpring } from 'framer-motion'
 import SkillsSection from './SkillsSection'
 import Education from './Education'
+import Image from 'next/image'
 
 
 const AnimatedNumber = ({value}) => {
@@ -56,10 +57,12 @@ const About = () => {
 
         <div className='col-span-3 rounded-lg w-full justify-end items-start flex'>
           {/* image */}
-          <img
+          <Image
           src='/images/img/profile2.jpg'
+          width={400}
+          height={400}
           alt='Profile Picture'
-          className='rounded-lg md:w-80 h-auto  p-4 shadow-[7px_7px_0px_#333] border-2 border-black'
+          className='rounded-lg p-4 shadow-[7px_7px_0px_#333] border-2 border-black'
           priority="true"
           />
         </div>
