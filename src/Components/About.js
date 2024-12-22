@@ -47,7 +47,7 @@ const About = () => {
     <section className='w-full h-full px-4'>
       <div>
       <AnimatedText text="Bringing Ideas to Life" className='text-2xl md:text-3xl lg:text-5xl xl:text-7xl py-8 xl:py-14'/>
-      <div className='md:grid grid-cols-9 md:px-4 md:gap-4 '>
+      <div className='md:grid grid-cols-10 md:px-4 md:gap-4 '>
         <div className='col-span-4 w-full'>
           <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-mono font-bold text-red-500'>About Myself:</h2>
           <p className='text-black text-sm my-4 capitalize'>
@@ -67,16 +67,16 @@ const About = () => {
           />
         </div>
 
-        <div className='w-full justify-end items-end  text-center mt-14 md:mt-0 text-xl col-span-1 md:ml-8'>
+        <div className='w-full justify-end items-end  text-center mt-14 md:mt-0 text-xl col-span-2 md:ml-8'>
           <div className='inline-block'>
-            <span className='text-5xl text-red-500 font-extrabold '>
+            <span className='text-7xl text-red-500 font-extrabold '>
               <AnimatedNumber value={8}/>+
             </span>
-            <h2 className='text-2xl font-bold'>Satisfied Clients</h2>
+            <h2 className='text-2xl font-bold '>Satisfied Clients</h2>
           </div>
 
           <div className='my-14 inline-block'>
-            <span className='text-5xl text-fuchsia-500 font-extrabold '>
+            <span className='text-7xl text-fuchsia-500 font-extrabold '>
               <AnimatedNumber value={10}/>+
             </span>
             <h2 className='text-2xl font-bold'>Projects Completed</h2>

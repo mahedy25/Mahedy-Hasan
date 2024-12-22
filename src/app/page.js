@@ -50,19 +50,11 @@ const page = () => {
         whileHover={{y:-3}}
         href="/Mahedy_HasanCV.pdf"
         target="_blank"
-        className="flex items-center justify-center text-center bg-black w-40 h-12  rounded-md text-lg hover:bg-gradient-to-r from-red-500 to-fuchsia-500"
+        className="flex items-center justify-center text-center bg-white shadow-[4px_4px_0px_#333] border-2 hover:text-white rounded-full border-black text-black  w-40 h-12 text-lg hover:bg-gradient-to-r from-red-500 to-fuchsia-500"
         download={true}
     >
         Download CV
         
-    </motion.a>
-    <motion.a
-        whileHover={{y:-3}}
-        href="mailto:mahedyhasan873@gmail.com"
-        target="_blank"
-        className="flex items-center justify-center text-center bg-black w-40 h-12 rounded-md text-lg hover:bg-gradient-to-r from-red-500 to-fuchsia-500"
-    >
-        Contact Now
     </motion.a>
 
     <div>
