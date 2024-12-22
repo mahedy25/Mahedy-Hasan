@@ -44,7 +44,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="">
+    <section className="px-4 md:px-0">
       <div>
         {/* Animated Header */}
         <div>
@@ -130,7 +130,7 @@ const Contact = () => {
             <motion.button
             whileHover={{scale:1.05}}
               type="submit"
-              className=" bg-black text-white py-2 px-4 md:px-6 rounded-lg font-bold text-lg hover:bg-gradient-to-r from-red-500 to-fuchsia-500 "
+              className=" bg-white border-2 border-black text-black hover:text-white shadow-[4px_4px_0px_#333] py-2 px-4 md:px-6 rounded-lg font-bold text-lg hover:bg-gradient-to-r from-red-500 to-fuchsia-500 "
             >
               Send Message
             </motion.button>

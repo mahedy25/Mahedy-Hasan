@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const NewsHeadline = () => {
   return (
-    <div className="overflow-hidden  border bg-gradient-to-r from-red-500 to-fuchsia-500  my-12 py-3 w-full">
+    <div className="overflow-hidden  border bg-gradient-to-r from-red-500 to-fuchsia-500  my-12 py-3  w-full hidden md:block">
       <motion.div
         className="inline-block whitespace-nowrap text-lg font-semibold px-4 text-white"
         animate={{ x: ["-100%", "300%"] }} // Moves fully from left to right
