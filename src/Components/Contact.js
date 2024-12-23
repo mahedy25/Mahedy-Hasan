@@ -44,7 +44,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="px-4 md:px-0">
+    <section className="px-4 my-8 md:my-0 md:px-0">
       <div>
         {/* Animated Header */}
         <div>
