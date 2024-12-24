@@ -70,7 +70,7 @@ const About = () => {
           />
         </div>
 
-        <div className='w-full justify-end items-end  text-center mt-14 md:mt-0 text-xl col-span-2 md:ml-8'>
+        <div className='w-full justify-end items-end  text-center mt-14 md:mt-0 text-xl col-span-2 flex flex-col md:flex-row md:ml-8'>
           <div className='inline-block'>
             <span className='text-7xl text-red-500 font-extrabold '>
               <AnimatedNumber value={8}/>+
