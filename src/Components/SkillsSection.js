@@ -38,12 +38,12 @@ const SkillsSection = () => {
               key={skill.name}
               custom={index}
               variants={skillVariant}
-              className="bg-white  hover:bg-gradient-to-r from-red-500 border-2 border-black to-fuchsia-500 rounded-lg flex w-full h-full items-center shadow-[7px_7px_0px_#333] justify-center px-2 py-4 gap-2"
+              className="bg-white  hover:bg-gradient-to-r from-red-500 border-2 border-black to-fuchsia-500 rounded-lg flex w-full  h-full items-center shadow-[7px_7px_0px_#333] justify-center px-2 py-4 gap-2"
             >
               {/* SVG Icon */}
               <skill.Icon className=" justify-center items-center  h-24 text-white" />
               {/* Skill Name */}
-              <h1 className="text-lg text-start md:text-xl lg:text-2xl text-black w-full font-bold font-mono">
+              <h1 className="text-lg text-center items-center flex md:text-xl lg:text-2xl h-full text-black w-full font-bold font-mono">
                 {skill.name}
               </h1>
             </motion.div>

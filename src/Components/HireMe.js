@@ -8,7 +8,7 @@ const HireMe = () => {
     <div className='absolute right-4 bottom-0 flex items-center justify-center overflow-hidden'>
       <div className='w-60 h-auto flex items-center justify-center relative'>
 
-        <RoundText className={"hidden md:block fill-dark animate-spin "}/>
+        <RoundText className={"hidden xl:block fill-dark animate-spin "}/>
 
         <motion.a 
         href="/contact" 
