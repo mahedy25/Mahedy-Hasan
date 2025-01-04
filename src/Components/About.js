@@ -50,15 +50,15 @@ const About = () => {
       <div className='md:grid grid-cols-10 md:px-4 md:gap-4 '>
         <div className='col-span-4 w-full'>
           <h2 className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-mono font-bold text-red-500'>About Myself:</h2>
-          <p className='text-black text-lg my-4 capitalize'>
+          <p className='text-black text-lg my-4 capitalize font-semibold'>
            I am a Front-End Developer with expertise in creating modern, responsive, and user-friendly websites. With years of experience in HTML, CSS, Tailwind CSS, JavaScript, React, Next.JS and Framer Motion, I specialize in building visually appealing and high-performing web applications. Whether it’s custom websites, performance optimization, or interactive designs, I’m here to bring your ideas to life. Feel free to send me a message—I’d love to be part of your next project!
           </p>
-          <span className='text-lg'>
+          <span className='text-lg text-red-500 font-bold'>
             Language: Fluent in English & Bengali.
           </span>
         </div>
 
-        <div className='col-span-3 rounded-lg w-full justify-end items-start flex'>
+        <div className='col-span-3 rounded-lg w-full justify-end items-start flex mt-8'>
           {/* image */}
           <img
           src="/profileImage/profile2.jpg"
